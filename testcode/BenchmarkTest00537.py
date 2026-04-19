@@ -52,9 +52,9 @@ def init(app):
 			RESPONSE += (
 				f'Your XPATH query results are: <br>[ {', '.join(node_strings)} ]'
 			)
-		except:
+		except Exception as e:
 			RESPONSE += (
-				f'Error parsing XPath Query: \'{escape_for_html(query)}\''
+				f'Error parsing XPath Query: \'{escape_for_html(str(e))}\''
 			)
 
 
