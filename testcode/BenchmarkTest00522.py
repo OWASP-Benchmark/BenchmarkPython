@@ -49,6 +49,9 @@ def init(app):
 
 		import helpers.utils
 
+		fileName = None
+		fd = None
+
 		if '../' in bar:
 			RESPONSE += (
 				'File name must not contain \'../\''

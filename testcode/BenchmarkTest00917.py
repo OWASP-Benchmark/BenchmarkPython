@@ -51,6 +51,9 @@ def init(app):
 			)
 			return RESPONSE
 
+		fileName = None
+		fd = None
+
 		try:
 			fileName = f'{helpers.utils.TESTFILES_DIR}/{bar}'
 			fd = open(fileName, 'wb')
