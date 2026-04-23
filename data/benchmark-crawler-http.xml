@@ -2372,7 +2372,7 @@
         <header name="http://localhost:5000/" value="BenchmarkTest00655"/>
     </benchmarkTest>
     <benchmarkTest URL="https://localhost:8443/benchmark/trustbound-00/BenchmarkTest00656" tcName="BenchmarkTest00656" tcType="SERVLET">
-        <header name="my_user_id" value="BenchmarkTest00656"/>
+        <header name="my-user-id" value="BenchmarkTest00656"/>
     </benchmarkTest>
     <benchmarkTest URL="https://localhost:8443/benchmark/deserialization-00/BenchmarkTest00657" tcName="BenchmarkTest00657" tcType="SERVLET">
         <header name="gASVNwAAAAAAAACMCF9fbWFpbl9flIwOc2FmZV90b19waWNrbGWUk5QpgZR9lCiMAWGUjANmb2-UjAFilEtjdWIu" value="BenchmarkTest00657"/>
