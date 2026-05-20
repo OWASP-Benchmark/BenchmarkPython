@@ -36,6 +36,9 @@ def init(app):
 
 		import helpers.utils
 
+		fileName = None
+		fd = None
+
 		try:
 			fileName = f'{helpers.utils.TESTFILES_DIR}/{param}'
 			fd = open(fileName, 'wb')
