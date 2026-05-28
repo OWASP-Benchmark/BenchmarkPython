@@ -23,7 +23,7 @@ def init(app):
 	@app.route('/benchmark/trustbound-00/BenchmarkTest00072', methods=['GET'])
 	def BenchmarkTest00072_get():
 		response = make_response(render_template('web/trustbound-00/BenchmarkTest00072.html'))
-		response.set_cookie('BenchmarkTest00072', 'my_user_id',
+		response.set_cookie('BenchmarkTest00072', 'my-user-id',
 			max_age=60*3,
 			secure=True,
 			path=request.path,

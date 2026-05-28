@@ -208,13 +208,13 @@
         <cookie name="BenchmarkTest00069" value="http://localhost:5000/"/>
     </benchmarkTest>
     <benchmarkTest URL="https://localhost:8443/benchmark/trustbound-00/BenchmarkTest00070" tcName="BenchmarkTest00070" tcType="SERVLET">
-        <cookie name="BenchmarkTest00070" value="my_user_id"/>
+        <cookie name="BenchmarkTest00070" value="my-user-id"/>
     </benchmarkTest>
     <benchmarkTest URL="https://localhost:8443/benchmark/trustbound-00/BenchmarkTest00071" tcName="BenchmarkTest00071" tcType="SERVLET">
-        <cookie name="BenchmarkTest00071" value="my_user_id"/>
+        <cookie name="BenchmarkTest00071" value="my-user-id"/>
     </benchmarkTest>
     <benchmarkTest URL="https://localhost:8443/benchmark/trustbound-00/BenchmarkTest00072" tcName="BenchmarkTest00072" tcType="SERVLET">
-        <cookie name="BenchmarkTest00072" value="my_user_id"/>
+        <cookie name="BenchmarkTest00072" value="my-user-id"/>
     </benchmarkTest>
     <benchmarkTest URL="https://localhost:8443/benchmark/codeinj-00/BenchmarkTest00073" tcName="BenchmarkTest00073" tcType="SERVLET">
         <cookie name="BenchmarkTest00073" value="'ECHOOO'"/>
@@ -538,19 +538,19 @@
         <formparam name="BenchmarkTest00151" value="http://localhost:5000/"/>
     </benchmarkTest>
     <benchmarkTest URL="https://localhost:8443/benchmark/trustbound-00/BenchmarkTest00152" tcName="BenchmarkTest00152" tcType="SERVLET">
-        <formparam name="BenchmarkTest00152" value="my_user_id"/>
+        <formparam name="BenchmarkTest00152" value="my-user-id"/>
     </benchmarkTest>
     <benchmarkTest URL="https://localhost:8443/benchmark/trustbound-00/BenchmarkTest00153" tcName="BenchmarkTest00153" tcType="SERVLET">
         <formparam name="answer" value=""/>
-        <formparam name="BenchmarkTest00153" value="my_user_id"/>
+        <formparam name="BenchmarkTest00153" value="my-user-id"/>
     </benchmarkTest>
     <benchmarkTest URL="https://localhost:8443/benchmark/trustbound-00/BenchmarkTest00154" tcName="BenchmarkTest00154" tcType="SERVLET">
-        <formparam name="BenchmarkTest00154" value="my_user_id"/>
+        <formparam name="BenchmarkTest00154" value="my-user-id"/>
     </benchmarkTest>
     <benchmarkTest URL="https://localhost:8443/benchmark/trustbound-00/BenchmarkTest00155" tcName="BenchmarkTest00155" tcType="SERVLET">
         <formparam name="password" value=""/>
         <formparam name="email" value=""/>
-        <formparam name="BenchmarkTest00155" value="my_user_id"/>
+        <formparam name="BenchmarkTest00155" value="my-user-id"/>
     </benchmarkTest>
     <benchmarkTest URL="https://localhost:8443/benchmark/codeinj-00/BenchmarkTest00156" tcName="BenchmarkTest00156" tcType="SERVLET">
         <formparam name="productID" value=""/>
@@ -991,16 +991,16 @@
     <benchmarkTest URL="https://localhost:8443/benchmark/trustbound-00/BenchmarkTest00260" tcName="BenchmarkTest00260" tcType="SERVLET">
         <formparam name="password" value=""/>
         <formparam name="email" value=""/>
-        <formparam name="BenchmarkTest00260" value="my_user_id"/>
+        <formparam name="BenchmarkTest00260" value="my-user-id"/>
     </benchmarkTest>
     <benchmarkTest URL="https://localhost:8443/benchmark/trustbound-00/BenchmarkTest00261" tcName="BenchmarkTest00261" tcType="SERVLET">
         <formparam name="productID" value=""/>
         <formparam name="secure" value=""/>
         <formparam name="foo" value="foo"/>
-        <formparam name="BenchmarkTest00261" value="my_user_id"/>
+        <formparam name="BenchmarkTest00261" value="my-user-id"/>
     </benchmarkTest>
     <benchmarkTest URL="https://localhost:8443/benchmark/trustbound-00/BenchmarkTest00262" tcName="BenchmarkTest00262" tcType="SERVLET">
-        <formparam name="BenchmarkTest00262" value="my_user_id"/>
+        <formparam name="BenchmarkTest00262" value="my-user-id"/>
     </benchmarkTest>
     <benchmarkTest URL="https://localhost:8443/benchmark/codeinj-00/BenchmarkTest00263" tcName="BenchmarkTest00263" tcType="SERVLET">
         <formparam name="answer" value=""/>
@@ -1319,21 +1319,21 @@
     </benchmarkTest>
     <benchmarkTest URL="https://localhost:8443/benchmark/trustbound-00/BenchmarkTest00338" tcName="BenchmarkTest00338" tcType="SERVLET">
         <formparam name="answer" value=""/>
-        <formparam name="BenchmarkTest00338" value="my_user_id"/>
+        <formparam name="BenchmarkTest00338" value="my-user-id"/>
     </benchmarkTest>
     <benchmarkTest URL="https://localhost:8443/benchmark/trustbound-00/BenchmarkTest00339" tcName="BenchmarkTest00339" tcType="SERVLET">
-        <formparam name="BenchmarkTest00339" value="my_user_id"/>
+        <formparam name="BenchmarkTest00339" value="my-user-id"/>
     </benchmarkTest>
     <benchmarkTest URL="https://localhost:8443/benchmark/trustbound-00/BenchmarkTest00340" tcName="BenchmarkTest00340" tcType="SERVLET">
         <formparam name="password" value=""/>
         <formparam name="email" value=""/>
-        <formparam name="BenchmarkTest00340" value="my_user_id"/>
+        <formparam name="BenchmarkTest00340" value="my-user-id"/>
     </benchmarkTest>
     <benchmarkTest URL="https://localhost:8443/benchmark/trustbound-00/BenchmarkTest00341" tcName="BenchmarkTest00341" tcType="SERVLET">
         <formparam name="productID" value=""/>
         <formparam name="secure" value=""/>
         <formparam name="foo" value="foo"/>
-        <formparam name="BenchmarkTest00341" value="my_user_id"/>
+        <formparam name="BenchmarkTest00341" value="my-user-id"/>
     </benchmarkTest>
     <benchmarkTest URL="https://localhost:8443/benchmark/codeinj-00/BenchmarkTest00342" tcName="BenchmarkTest00342" tcType="SERVLET">
         <formparam name="BenchmarkTest00342" value="'ECHOOO'"/>
@@ -1653,7 +1653,7 @@
     </benchmarkTest>
     <benchmarkTest URL="https://localhost:8443/benchmark/trustbound-00/BenchmarkTest00421" tcName="BenchmarkTest00421" tcType="SERVLET">
         <formparam name="answer" value=""/>
-        <formparam name="my_user_id" value="BenchmarkTest00421"/>
+        <formparam name="my-user-id" value="BenchmarkTest00421"/>
     </benchmarkTest>
     <benchmarkTest URL="https://localhost:8443/benchmark/codeinj-00/BenchmarkTest00422" tcName="BenchmarkTest00422" tcType="SERVLET">
         <formparam name="answer" value=""/>
@@ -1895,22 +1895,22 @@
         <header name="BenchmarkTest00496" value="http://localhost:5000/"/>
     </benchmarkTest>
     <benchmarkTest URL="https://localhost:8443/benchmark/trustbound-00/BenchmarkTest00497" tcName="BenchmarkTest00497" tcType="SERVLET">
-        <header name="BenchmarkTest00497" value="my_user_id"/>
+        <header name="BenchmarkTest00497" value="my-user-id"/>
     </benchmarkTest>
     <benchmarkTest URL="https://localhost:8443/benchmark/trustbound-00/BenchmarkTest00498" tcName="BenchmarkTest00498" tcType="SERVLET">
-        <header name="BenchmarkTest00498" value="my_user_id"/>
+        <header name="BenchmarkTest00498" value="my-user-id"/>
     </benchmarkTest>
     <benchmarkTest URL="https://localhost:8443/benchmark/trustbound-00/BenchmarkTest00499" tcName="BenchmarkTest00499" tcType="SERVLET">
-        <header name="BenchmarkTest00499" value="my_user_id"/>
+        <header name="BenchmarkTest00499" value="my-user-id"/>
     </benchmarkTest>
     <benchmarkTest URL="https://localhost:8443/benchmark/trustbound-00/BenchmarkTest00500" tcName="BenchmarkTest00500" tcType="SERVLET">
-        <header name="BenchmarkTest00500" value="my_user_id"/>
+        <header name="BenchmarkTest00500" value="my-user-id"/>
     </benchmarkTest>
     <benchmarkTest URL="https://localhost:8443/benchmark/trustbound-00/BenchmarkTest00501" tcName="BenchmarkTest00501" tcType="SERVLET">
-        <header name="BenchmarkTest00501" value="my_user_id"/>
+        <header name="BenchmarkTest00501" value="my-user-id"/>
     </benchmarkTest>
     <benchmarkTest URL="https://localhost:8443/benchmark/trustbound-00/BenchmarkTest00502" tcName="BenchmarkTest00502" tcType="SERVLET">
-        <header name="BenchmarkTest00502" value="my_user_id"/>
+        <header name="BenchmarkTest00502" value="my-user-id"/>
     </benchmarkTest>
     <benchmarkTest URL="https://localhost:8443/benchmark/codeinj-00/BenchmarkTest00503" tcName="BenchmarkTest00503" tcType="SERVLET">
         <header name="BenchmarkTest00503" value="'ECHOOO'"/>
@@ -2372,7 +2372,7 @@
         <header name="http://localhost:5000/" value="BenchmarkTest00655"/>
     </benchmarkTest>
     <benchmarkTest URL="https://localhost:8443/benchmark/trustbound-00/BenchmarkTest00656" tcName="BenchmarkTest00656" tcType="SERVLET">
-        <header name="my_user_id" value="BenchmarkTest00656"/>
+        <header name="my-user-id" value="BenchmarkTest00656"/>
     </benchmarkTest>
     <benchmarkTest URL="https://localhost:8443/benchmark/deserialization-00/BenchmarkTest00657" tcName="BenchmarkTest00657" tcType="SERVLET">
         <header name="gASVNwAAAAAAAACMCF9fbWFpbl9flIwOc2FmZV90b19waWNrbGWUk5QpgZR9lCiMAWGUjANmb2-UjAFilEtjdWIu" value="BenchmarkTest00657"/>
@@ -2709,17 +2709,17 @@
     <benchmarkTest URL="https://localhost:8443/benchmark/trustbound-00/BenchmarkTest00725" tcName="BenchmarkTest00725" tcType="SERVLET">
         <getparam name="password" value=""/>
         <getparam name="username" value=""/>
-        <getparam name="BenchmarkTest00725" value="my_user_id"/>
+        <getparam name="BenchmarkTest00725" value="my-user-id"/>
     </benchmarkTest>
     <benchmarkTest URL="https://localhost:8443/benchmark/trustbound-00/BenchmarkTest00726" tcName="BenchmarkTest00726" tcType="SERVLET">
         <getparam name="password" value=""/>
         <getparam name="username" value=""/>
-        <getparam name="BenchmarkTest00726" value="my_user_id"/>
+        <getparam name="BenchmarkTest00726" value="my-user-id"/>
     </benchmarkTest>
     <benchmarkTest URL="https://localhost:8443/benchmark/trustbound-00/BenchmarkTest00727" tcName="BenchmarkTest00727" tcType="SERVLET">
         <getparam name="password" value=""/>
         <getparam name="username" value=""/>
-        <getparam name="BenchmarkTest00727" value="my_user_id"/>
+        <getparam name="BenchmarkTest00727" value="my-user-id"/>
     </benchmarkTest>
     <benchmarkTest URL="https://localhost:8443/benchmark/codeinj-00/BenchmarkTest00728" tcName="BenchmarkTest00728" tcType="SERVLET">
         <getparam name="password" value=""/>
@@ -3169,7 +3169,7 @@
     <benchmarkTest URL="https://localhost:8443/benchmark/trustbound-00/BenchmarkTest00817" tcName="BenchmarkTest00817" tcType="SERVLET">
         <getparam name="password" value=""/>
         <getparam name="username" value=""/>
-        <getparam name="BenchmarkTest00817" value="my_user_id"/>
+        <getparam name="BenchmarkTest00817" value="my-user-id"/>
     </benchmarkTest>
     <benchmarkTest URL="https://localhost:8443/benchmark/codeinj-00/BenchmarkTest00818" tcName="BenchmarkTest00818" tcType="SERVLET">
         <getparam name="password" value=""/>
@@ -3519,17 +3519,17 @@
     <benchmarkTest URL="https://localhost:8443/benchmark/trustbound-00/BenchmarkTest00887" tcName="BenchmarkTest00887" tcType="SERVLET">
         <getparam name="password" value=""/>
         <getparam name="username" value=""/>
-        <getparam name="BenchmarkTest00887" value="my_user_id"/>
+        <getparam name="BenchmarkTest00887" value="my-user-id"/>
     </benchmarkTest>
     <benchmarkTest URL="https://localhost:8443/benchmark/trustbound-00/BenchmarkTest00888" tcName="BenchmarkTest00888" tcType="SERVLET">
         <getparam name="password" value=""/>
         <getparam name="username" value=""/>
-        <getparam name="BenchmarkTest00888" value="my_user_id"/>
+        <getparam name="BenchmarkTest00888" value="my-user-id"/>
     </benchmarkTest>
     <benchmarkTest URL="https://localhost:8443/benchmark/trustbound-00/BenchmarkTest00889" tcName="BenchmarkTest00889" tcType="SERVLET">
         <getparam name="password" value=""/>
         <getparam name="username" value=""/>
-        <getparam name="BenchmarkTest00889" value="my_user_id"/>
+        <getparam name="BenchmarkTest00889" value="my-user-id"/>
     </benchmarkTest>
     <benchmarkTest URL="https://localhost:8443/benchmark/codeinj-00/BenchmarkTest00890" tcName="BenchmarkTest00890" tcType="SERVLET">
         <getparam name="password" value=""/>
@@ -4004,12 +4004,12 @@
     <benchmarkTest URL="https://localhost:8443/benchmark/trustbound-00/BenchmarkTest00984" tcName="BenchmarkTest00984" tcType="SERVLET">
         <getparam name="password" value=""/>
         <getparam name="username" value=""/>
-        <getparam name="BenchmarkTest00984" value="my_user_id"/>
+        <getparam name="BenchmarkTest00984" value="my-user-id"/>
     </benchmarkTest>
     <benchmarkTest URL="https://localhost:8443/benchmark/trustbound-00/BenchmarkTest00985" tcName="BenchmarkTest00985" tcType="SERVLET">
         <getparam name="password" value=""/>
         <getparam name="username" value=""/>
-        <getparam name="BenchmarkTest00985" value="my_user_id"/>
+        <getparam name="BenchmarkTest00985" value="my-user-id"/>
     </benchmarkTest>
     <benchmarkTest URL="https://localhost:8443/benchmark/codeinj-00/BenchmarkTest00986" tcName="BenchmarkTest00986" tcType="SERVLET">
         <getparam name="password" value=""/>
@@ -4489,15 +4489,15 @@
         <formparam name="BenchmarkTest01091" value="http://localhost:5000/"/>
     </benchmarkTest>
     <benchmarkTest URL="https://localhost:8443/benchmark/trustbound-00/BenchmarkTest01092" tcName="BenchmarkTest01092" tcType="SERVLET">
-        <formparam name="BenchmarkTest01092" value="my_user_id"/>
+        <formparam name="BenchmarkTest01092" value="my-user-id"/>
     </benchmarkTest>
     <benchmarkTest URL="https://localhost:8443/benchmark/trustbound-00/BenchmarkTest01093" tcName="BenchmarkTest01093" tcType="SERVLET">
-        <formparam name="BenchmarkTest01093" value="my_user_id"/>
+        <formparam name="BenchmarkTest01093" value="my-user-id"/>
     </benchmarkTest>
     <benchmarkTest URL="https://localhost:8443/benchmark/trustbound-00/BenchmarkTest01094" tcName="BenchmarkTest01094" tcType="SERVLET">
         <getparam name="password" value=""/>
         <getparam name="username" value=""/>
-        <getparam name="BenchmarkTest01094" value="my_user_id"/>
+        <getparam name="BenchmarkTest01094" value="my-user-id"/>
     </benchmarkTest>
     <benchmarkTest URL="https://localhost:8443/benchmark/ldapi-00/BenchmarkTest01095" tcName="BenchmarkTest01095" tcType="SERVLET">
         <formparam name="password" value=""/>
@@ -4794,13 +4794,13 @@
         <formparam name="productID" value=""/>
         <formparam name="secure" value=""/>
         <formparam name="foo" value="foo"/>
-        <formparam name="BenchmarkTest01161" value="my_user_id"/>
+        <formparam name="BenchmarkTest01161" value="my-user-id"/>
     </benchmarkTest>
     <benchmarkTest URL="https://localhost:8443/benchmark/trustbound-00/BenchmarkTest01162" tcName="BenchmarkTest01162" tcType="SERVLET">
-        <formparam name="BenchmarkTest01162" value="my_user_id"/>
+        <formparam name="BenchmarkTest01162" value="my-user-id"/>
     </benchmarkTest>
     <benchmarkTest URL="https://localhost:8443/benchmark/trustbound-00/BenchmarkTest01163" tcName="BenchmarkTest01163" tcType="SERVLET">
-        <formparam name="BenchmarkTest01163" value="my_user_id"/>
+        <formparam name="BenchmarkTest01163" value="my-user-id"/>
     </benchmarkTest>
     <benchmarkTest URL="https://localhost:8443/benchmark/codeinj-00/BenchmarkTest01164" tcName="BenchmarkTest01164" tcType="SERVLET">
         <getparam name="password" value=""/>
