@@ -45,7 +45,7 @@ def init(app):
 			yobj = yaml.safe_load(bar)
 
 			RESPONSE += (
-				yobj['text']
+				escape_for_html(yobj['text'])
 			)
 		except:
 			RESPONSE += (
