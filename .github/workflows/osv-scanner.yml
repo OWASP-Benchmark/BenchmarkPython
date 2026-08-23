@@ -1,0 +1,26 @@
+name: OSV-Scanner SCA
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+  schedule:
+    - cron: "30 12 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+  security-events: write
+
+jobs:
+  osv-scan:
+    uses: google/osv-scanner-action/.github/workflows/osv-scanner-reusable.yml@v2.5.0
+    with:
+      scan-args: |-
+        --lockfile=requirements.txt:./requirements.txt
+      results-file-name: osv-results.sarif
+      upload-sarif: true
+      fail-on-vuln: false
+      
