@@ -1,0 +1,26 @@
+name: Security Scan
+
+on:
+  push:
+    branches:
+      - main
+      - master
+      - add-sbom-generation
+
+  pull_request:
+    branches:
+      - main
+      - master
+
+jobs:
+  semgrep:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run Semgrep
+        uses: semgrep/semgrep-action@v1
+        with:
+          config: p/python
