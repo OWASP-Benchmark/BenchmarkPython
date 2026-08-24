@@ -1,0 +1,42 @@
+name: Python CI
+
+on:
+  push:
+    branches:
+      - main
+      - master
+      - add-sbom-generation
+
+  pull_request:
+    branches:
+      - main
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Upgrade pip
+        run: |
+          python -m pip install --upgrade pip
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Verify Python source
+        run: |
+          python -m compileall app.py testcode helpers scripts
+
+      - name: Display installed dependencies
+        run: |
+          pip list
