@@ -18,6 +18,37 @@ jobs:
 
     steps:
       - name: Checkout repository
+      - name: Generate CycloneDX SBOM
+name: Generate SBOM
+        uses: anchore/sbom-action@v0
+        with:
+          path: .
+
+on:
+          format: cyclonedx-json
+  push:
+    branches:
+          output-file: sbom.cdx.json
+
+      - name: Upload SBOM artifact
+      - main
+        uses: actions/upload-artifact@v4
+        with:
+          name: sbom-cyclonedx
+      - master
+      - add-sbom-generation
+          path: sbom.cdx.json
+  pull_request:
+    branches:
+      - main
+      - master
+
+jobs:
+  sbom:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Generate CycloneDX SBOM
